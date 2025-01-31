@@ -1,5 +1,7 @@
 let myDate = new Date()
 // console.log(myDate);
+console.log( typeof myDate);
+
 
 // Date Functions ************************
 // console.log(myDate.toDateString());
