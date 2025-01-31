@@ -40,12 +40,34 @@ const newAray = myAarray.join()    // Bind and convert in String
 
 const marval_Heros = ["hulk","captain","spiderman"]
 const old_heros = ["shaktiman","jrG","vikarm"]
-
+const old_heros2 = ["hatim","jrG","vikarm"]
 // marval_Heros.push(old_heros)        // old_heros Array ke Form me add hota hai bad habit
 // console.log(marval_Heros);    
 
 // const all_Heros = marval_Heros.concat(old_heros)  // dono concat aur old_Heros String me hota hai
 // console.log(all_Heros);
 
-const all_new_Heros = [...marval_Heros,...old_heros]
-console.log(all_new_Heros);
+const all_new_Heros = [...marval_Heros,...old_heros,...old_heros2]  // 2 ya 2 se jyada array ko merge karna
+// console.log(all_new_Heros);
+
+// const anotherArray = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
+// const real_Another_Array = anotherArray.flat(Infinity)  // convert multiple array in One by depth
+// console.log(real_Another_Array);  
+
+console.log(Array.isArray("Ravi"))
+console.log(Array.from("Ravi"));
+console.log(Array.from({name:"Ravi"}));  // Intresting for Interview
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+let score1 = 100
+let score2 = 200
+let score3 = 300
+console.log(Array.of(score1,score2,score3));
+
+//  End of Array  ----------------------------------------------
+
+
+
+
+ 
+
