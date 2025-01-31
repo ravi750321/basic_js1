@@ -24,7 +24,7 @@ console.log(myCrateDate.toLocaleString());
 
 let myTimeStamp = Date.now()  // in milisecond
 console.log(myTimeStamp);
-console.log(myTimeStamp.getTime);
+console.log(myCrateDate.getTime());
 console.log(Math.floor(Date.now()/1000)) // ms in Sec
 
 //++++++++++++++++++++++
