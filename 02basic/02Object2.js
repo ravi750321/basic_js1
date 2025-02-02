@@ -64,3 +64,23 @@ console.log(users[1].uname);  // Object value under array
 // console.log(Object.entries(user1));   // o/p entries of object
   
 console.log(user1.hasOwnProperty("isLoggedIn"));  // check for object me property hai ya nhi
+
+// Object deStructure =============================================
+
+const cource = {
+    courceName:"js in hondi",
+    fees: "999",
+    courceInstructor:"hitesh"
+}
+
+// cource.courceInstructor
+
+const{courceInstructor:instructor} = cource
+
+// console.log(courceInstructor);  //Eror after given Alias name instructor
+console.log(instructor);
+
+
+const{fees:fee} = cource
+// console.log(fees);
+console.log(fee);
