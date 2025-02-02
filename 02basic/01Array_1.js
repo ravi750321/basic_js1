@@ -20,8 +20,8 @@ const myArray2 = new Array(10,.20,50,63,54,13)  //03
 
 const newAray = myAarray.join()    // Bind and convert in String
 
-// console.log(myAarray); 
-// console.log(newAray);        
+console.log(myAarray); 
+console.log(newAray);        
 // console.log(typeof newAray);   // return in String
 
 // Slice and Splice 
