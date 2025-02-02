@@ -53,6 +53,8 @@ const users = [
     }
 ]
 
+console.log(users[1].uname);  // Object value under array
+
 // console.log(user1);
 
 // console.log(Object.keys(user1));   // o/p keys of object
