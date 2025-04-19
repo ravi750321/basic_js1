@@ -1,13 +1,13 @@
 // let score = "33avc"
+let score = " "
+console.log(typeof score)
 
-// console.log(typeof score)
-
-// let valueInNumber = Number(score)
-// console.log(valueInNumber)
-// console.log(typeof valueInNumber)
-let scores = null
-console.log(typeof scores)
-console.log(scores)
+let valueInNumber = Number(score)
+console.log(valueInNumber)
+console.log(typeof valueInNumber) 
+// let scores = " "
+// console.log(typeof scores)
+// console.log(scores)
 
 
 // result typeof
