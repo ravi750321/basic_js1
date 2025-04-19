@@ -16,6 +16,7 @@ console.log(typeof valueInNumber)
 // "33abc" => NaN
 // true => 1 , false => 0
 // Null => 0
+//" " => 0
 
 
 isLoggedIn = 1
